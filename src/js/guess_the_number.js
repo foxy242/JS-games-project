@@ -1,9 +1,7 @@
-const guessTheNumber = document.querySelector(".guess__the__number")
-const inputGuess = document.querySelector(".input__guess")
-const buttonGuess = document.querySelector(".button__guess")
-const dandruffGuessSvg = document.querySelector(".dandruff__guess__svg")
-const answerGuess = document.querySelector(".answer__guess")
+const guessTheNumberTitle = document.querySelector(".guess-the-number__title")
+const inputGuess = document.querySelector(".guess-the-number__input")
+const buttonGuess = document.querySelector(".guess-the-number__button")
+const dandruffGuessSvg = document.querySelector(".guess-the-number__svg")
+const answerGuess = document.querySelector(".guess-the-number__text")
 
-guessTheNumber.style.fontSize = "16px"
-guessTheNumber.style.textAlight = "center"
-guessTheNumber.style.fontFamily = "Montserrat Alternates, solid"
+
