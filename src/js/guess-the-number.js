@@ -2,7 +2,6 @@ const inputGuess = document.querySelector(".guess-the-number__input")
 const buttonGuess = document.querySelector(".guess-the-number__button")
 const dandruffGuessSvg = document.querySelector(".guess-the-number__svg")
 const answerGuess = document.querySelector(".guess-the-number__text")
-console.log("audsygud")
 
 const secretNumber = Math.floor(Math.random() * 100) + 1;
 const guess = inputGuess.value;
