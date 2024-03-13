@@ -1,0 +1,32 @@
+.dino-title {
+    font-size: 16px;
+    text-align: center;
+}
+.dino-game {
+    margin-top: 36px;
+}
+.container {
+    max-width: 1090px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#canvass {
+    border-bottom: 2px black solid;
+    display: block;
+    margin: auto;
+}
+#retryButton {
+    display: none; /* Почнемо з прихованої кнопки */
+    position: absolute; /* Абсолютне позиціонування */
+    top: 50%; /* Верхня грань посередині екрану */
+    left: 50%; /* Ліва грань посередині екрану */
+    transform: translate(-50%, -50%); /* Центрувати відносно центра */
+    padding: 10px 20px; /* Отступи */
+    font-size: 16px; /* Розмір шрифту */
+    background-color: #ffffff; /* Колір фону */
+    border: 1px solid #000000; /* Обрамлення кнопки */
+    cursor: pointer; /* Зміна курсору при наведенні */
+}
