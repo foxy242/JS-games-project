@@ -1,6 +1,7 @@
 .dino-title {
     font-size: 16px;
     text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 .dino-game {
     margin-top: 36px;
@@ -19,14 +20,14 @@
     margin: auto;
 }
 #retryButton {
-    display: none; /* Почнемо з прихованої кнопки */
-    position: absolute; /* Абсолютне позиціонування */
-    top: 50%; /* Верхня грань посередині екрану */
-    left: 50%; /* Ліва грань посередині екрану */
-    transform: translate(-50%, -50%); /* Центрувати відносно центра */
-    padding: 10px 20px; /* Отступи */
-    font-size: 16px; /* Розмір шрифту */
-    background-color: #ffffff; /* Колір фону */
-    border: 1px solid #000000; /* Обрамлення кнопки */
-    cursor: pointer; /* Зміна курсору при наведенні */
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    cursor: pointer;
 }
