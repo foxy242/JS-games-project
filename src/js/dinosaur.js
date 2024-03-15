@@ -1,13 +1,14 @@
 const canvas = document.getElementById('canvass');
 const ctx = canvas.getContext('2d');
 const gravity = 0.5;
-const jumpStrength = 10;
+const jumpStrength = 10.5;
 let isJumping = false;
 let dinoY = canvas.height - 40;
 let dinoYSpeed = 0;
 let obstacles = [];
 const dinoImage = new Image();
 const cactusImage = new Image();
+cactusImage.style.width = "10px"
 dinoImage.src = "https://w7.pngwing.com/pngs/39/802/png-transparent-gray-dinosaur-illustration-tyrannosaurus-t-shirt-dino-t-rex-runner-2-lonely-t-rex-run-2-google-chrome-8-bit-game-angle-text-thumbnail.png"
 cactusImage.src = 'https://w7.pngwing.com/pngs/380/807/png-transparent-game-off-game-jam-gamedev-net-video-game-cactus-game-angle-text-thumbnail.png';
 let gameover = false;
@@ -35,12 +36,12 @@ function retry() {
 }
 
 function drawDino() {
-    ctx.drawImage(dinoImage, 50, dinoY, 30, 30);
+    ctx.drawImage(dinoImage, 50, dinoY, 30, 30); // Малюємо зображення динозавра замість зеленого квадрата
 }
 
 function drawObstacles() {
     obstacles.forEach(obstacle => {
-        ctx.drawImage(cactusImage, obstacle.x, canvas.height - obstacle.height, obstacle.width, obstacle.height);
+        ctx.drawImage(cactusImage, obstacle.x, canvas.height - obstacle.height, obstacle.width, obstacle.height); // Малюємо зображення кактуса замість червоного квадрата
     });
 }
 
@@ -92,4 +93,4 @@ function draw() {
     }
 }
 
-document.getElementById('retryButton').addEventListener('click', retry);
+document.getElementById('retryButton').onclick = retry;
