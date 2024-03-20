@@ -4,5 +4,5 @@ function closeModal() {
     modal.classList.add('first-page-is-hidden');
 }
 closeButton.addEventListener('click', function() {
-    modal.style.opacity = '0';
+    modal.style.display = 'none';
 });
