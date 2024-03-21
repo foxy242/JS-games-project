@@ -38,20 +38,22 @@
 
 .button__calculator {
     align-items: center;
-    width: 27px;
+    width: 25px;
     height: 25px;
     border-radius: 20px;
     padding: 5px, 10px, 5px, 10px;
     background-color: black;
     color: #D7D7D7;
     box-shadow: 3px 3px 0px 0px #00000040; 
+    border: none;
 }
 
 .ebutton__calculator {
     margin-left: 38px;
     margin-right: 38px;
     align-items: center;
-    width: 27px;
+    border: none;
+    width: 25px;
     height: 25px;
     border-radius: 20px;
     padding: 5px, 10px, 5px, 10px;
@@ -63,13 +65,11 @@
 .button__list {
     display: flex;
     list-style: none;
-    width: 72px;
+    max-width: 100px;
     height: 60px;
-    border-radius: 20px;
     flex-wrap: wrap;
     margin-right: 38px;
     gap: 10px;
-    list-style: none;
 }
 
 
@@ -83,7 +83,7 @@
     padding-left: 14.63px;
     box-shadow: 3px 3px 0px 0px #00000040;
     border-radius: 20px;
-    font-family: Montserrat Alternates;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;
