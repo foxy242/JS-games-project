@@ -1,3 +1,11 @@
+.vector__scientist {
+    width: 536px;
+    height: 1px;
+    background-color: #000;
+    margin: auto;
+    margin-bottom: 36px;
+}
+
 .info__section {
     padding: 36px 0;
     font-family: "Montserrat Alternates", solid;
@@ -13,14 +21,15 @@
 }
 
 .info__scientists {
-    width: 577px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 577px;
     gap: 36px 59px;
     margin-top: 36px;
+    margin: auto;
+    margin-bottom: 36px;
     padding: 0;
-    margin-left: 500px;
 }
 
 .info__scientist {
@@ -35,18 +44,18 @@
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .info__prompts {
     margin-top: 36px;
-        gap: 20px 36px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        list-style: none;
-        margin: 0;
+    gap: 20px 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
 }
 
 .info__but {
@@ -61,4 +70,6 @@
     padding: 10px 20px;
     font-size: 12px;
     color: #FFFFFF;
+    list-style: none;
+    border: none;
 }
