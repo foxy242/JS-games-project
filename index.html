@@ -1,1 +1,292 @@
-<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Page title</title><link rel="stylesheet" href="/parcel-project-template/index.4010d076.css"><script type="module" src="/parcel-project-template/index.cdc84ddc.js"></script><script src="/parcel-project-template/index.6c2642bc.js" nomodule defer></script><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"></head><body>  <div> <div class="first-page-backdrop"> <form class="first-page-backdrop__background-modal"> <button class="first-page-backdrop__close" type="button"> <svg class="first-page-backdrop__close-svg"> <use href="/parcel-project-template/first-page-symbol-defs.3e6338c3.svg#icon-close"></use> </svg> </button> <p class="first-page-backdrop__description">Привіт!<br> Ви потрапили на сайт інтерактивних ігор та завдань<br> Надіємось, що вам сподобається і ви отримаєте позитивні емоції!<br> Бажаємо Вам гарно провести час!</p> <p class="first-page-backdrop__write-your-name">Введіть своє ім’я:</p> <input type="text" placeholder="Ваше ім’я..." class="first-page-backdrop__input"> <br> <button type="submit" class="first-page-backdrop__save">Зберегти</button> <svg class="first-page-backdrop__first-img first-page-backdrop__img"> <use href="/parcel-project-template/first-page-symbol-defs.3e6338c3.svg#icon-sword"></use> </svg> <svg class="first-page-backdrop__img first-page-backdrop__second-img"> <use href="/parcel-project-template/first-page-symbol-defs.3e6338c3.svg#icon-game-controller"></use> </svg> <svg class="first-page-backdrop__img first-page-backdrop__third-img"> <use href="/parcel-project-template/first-page-symbol-defs.3e6338c3.svg#icon-puzzle"></use> </svg> <svg class="first-page-backdrop__forth-img first-page-backdrop__img"> <use href="/parcel-project-template/first-page-symbol-defs.3e6338c3.svg#icon-tic-tac-toe"></use> </svg> </form> </div> <section class="guess-the-number-section"> <div class="container"> <div class="guess-the-number__line"></div> <h1 class="guess-the-number__title">Вгадай число, яке загадав комп’ютер</h1> <input type="text" class="guess-the-number__input" placeholder="Введіть число"> <button type="button" class="guess-the-number__button"> <svg class="guess-the-number__svg"> <use href="/parcel-project-template/guess-the-number-symbol-defs.32236dae.svg#icon-dandruff"></use> </svg> </button> <p class="guess-the-number__text"></p> </div> </section> <section class="prs__section"> <div class="continer"> <div class="vector__prs"></div> <h1 class="prs__title">Камінь - ножиці - папір</h1> <div class="prs__select"> <ul class="prs-button__list"> <li class="prs-button__item"> <button class="prs__button" type="button" id="rock-button"> камінь </button> </li> <li class="prs-button__item"> <button class="prs__button" type="button" id="scissors-button"> ножиці </button> </li> <li class="prs-button__item"> <button class="prs__button" type="button" id="paper-button"> папір </button> </li> <li> <ul class="score__list"> <li class="score__item" id="score"> Рахунок: </li> <li class="score__item" id="computer-score"> Комп'ютер - <p class="score__text" id="comp-score-text"></p> </li> <li class="score__item" id="user-score"> Ви - <p class="score__text" id="user-score-text"></p> </li> </ul> </li> </ul> </div> <p class="prs__winOrLose" id="winOrLose"> </p> <button type="button" class="prs-computer__button" id="computer-variant"> Варіант комп'ютера </button> </div> </section> <section class="calculator__section"> <div class="container"> <div class="vector__calculator"></div> <h1 class="calculator__title">Калькулятор</h1> <div class="calculator__container" id="calculator"> <input class="input__calculator" type="text" id="first-input" placeholder="Введіть число"> <ul class="button__list"> <li class="button__element"> <button class="button__calculator" type="button" id="plus">+</button> </li> <li class="button__element"> <button class="button__calculator" type="button" id="minus">-</button> </li> <li class="button__element"> <button class="button__calculator" type="button" id="multiply">*</button> </li> <li class="button__element"> <button class="button__calculator" type="button" id="division">/</button> </li> </ul> <input class="input__calculator" type="text" id="second-input" placeholder="Введіть число"> <button class="ebutton__calculator" type="button" id="equals"> = </button> <p class="calc__result" id="result-p"></p> </div> </div> </section> <section class="time-calculator__section"> <div class="container"> <div class="time-calculator-line"></div> <h1 class="time-calculator__title">Калькулятор часу</h1> <div class="time-calculator__list"> <ul class="time-input__list"> <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer"> <button type="submit" class="time-button__calculator"> </button> </ul> <img class="time-calc__stroke" src="/parcel-project-template/Vector-2.2f511db8.png" alt="vector"> <p class="time-calc__time">час</p> </div> </div> </section> <section class="dino-game"> <div class="container"> <div class="dino-line"></div> <h1 class="dino-title">Google динозавр</h1> <canvas id="canvass" width="720" height="297"></canvas> <button id="retryButton">Retry</button> </div> </section> <section class="soccer"> <div class="container"> <div class="soccer-line"></div> <h3 class="soccer__title">Футбол</h3> <div class="border-field"> <div id="field"> <img src="/parcel-project-template/ball.8b064e5f.png" alt id="ball"> </div> </div> </div> </section> <section class="highest-number__section"></section> <div class="container"> <div class="line__prs"></div> <h1 class="highest-number__title">Введіть три числа</h1> <ul class="input-num__list"> <input class="input-num__calculator" type="text" placeholder="Введіть число" id="one-input"> <input class="input-num__calculator" type="text" placeholder="Введіть число" id="two-input"> <input class="input-num__calculator" type="text" placeholder="Введіть число" id="three-input"> </ul> <p class="highest-number__text" id="time-result">Найбільше число, яке ви ввели -</p> </div> <section class="our-team"> <div class="container"> <div class="our-team__line"></div> <h3 class="our-team__title">Наша команда</h3> <div class="mySwiper swiper"> <div class="swiper-wrapper"> <div class="swiper-slide"> <div class="our-team__box"> <img class="worker-img" src="/parcel-project-template/pasha.54dcae74.jpg" alt> <h5 class="worker-name">Паша</h5> <p class="worker-work">ScramMaster</p> </div> </div> <div class="swiper-slide"> <div class="our-team__box"> <img class="worker-img" src="/parcel-project-template/marko.2ded9c1b.jpg" alt> <h5 class="worker-name">Марко</h5> <p class="worker-work">TeamLead</p> </div> </div> </div> <div class="swiper-button-next"></div> <div class="swiper-button-prev"></div> <div class="swiper-pagination"></div> </div> </div> </section> <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> <section class="footer"> <div class="container"> <ul class="footer__box"> <li class="footer__box-item"> <svg class="footer__logo"> <use href="/parcel-project-template/footer-symbol-defs.a2c8f9ff.svg#logo"></use> </svg> </li> <li class="footer__box-item"> <p class="footer__contacts">Тел: +38 (123) 456 78 90<br> E-Mail: codingmagic@gmail.com<br> Facebook: CodingMagic<br> Twitter: CodingMagic<br> Instagram: CodingMagic</p> </li> <li class="footer__box-item"> <div class="footer__subscribe-box"> <input type="text" placeholder="Ваша ел. адреса" class="footer__gmail-input"> <button class="footer__subscribe" type="button" data-open-modal>Підписатись</button> </div> <p class="footer__description">*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</p> </li> </ul> </div> </section> <div class="footer__is-hidden footer-backdrop" data-backdrop> <form class="footer-backdrop__background-modal"> <button class="footer-backdrop__close" type="button" data-close-modal> <svg class="footer-backdrop__close-svg"> <use href="/parcel-project-template/footer-symbol-defs.a2c8f9ff.svg#icon-close"></use> </svg> </button> <div class="footer-backdrop__background"> <h4 class="footer-backdrop__title">Дякую за підписку!</h4> </div> </form> </div> </div> <script type="module" src="/parcel-project-template/index.0778c530.js"></script><script src="/parcel-project-template/index.64926395.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.24a6417c.js"></script><script src="/parcel-project-template/index.0e4cef12.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.35d4fbbf.js"></script><script src="/parcel-project-template/index.5c911074.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.e8d42d68.js"></script><script src="/parcel-project-template/index.bc3eefb7.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.1ddc8441.js"></script><script src="/parcel-project-template/index.bc56e194.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.be88e517.js"></script><script src="/parcel-project-template/index.a09b8550.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.5c092084.js"></script><script src="/parcel-project-template/index.a723dbd7.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.d4dbd89a.js"></script><script src="/parcel-project-template/index.bd889465.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.8bcf121d.js"></script><script src="/parcel-project-template/index.3756ae24.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.73ff3a78.js"></script><script src="/parcel-project-template/index.a44027bc.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.f6b82391.js"></script><script src="/parcel-project-template/index.0af0dfaa.js" nomodule defer></script> <script src="/parcel-project-template/index.9ee84245.js" type="module"></script><script src="/parcel-project-template/index.a5ec6066.js" nomodule defer></script> <script src="/parcel-project-template/index.b6b51727.js" type="module"></script><script src="/parcel-project-template/index.5a696b0b.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.d4f939fd.js"></script><script src="/parcel-project-template/index.300799ec.js" nomodule defer></script> <script type="module" src="/parcel-project-template/index.ff0d030e.js"></script><script src="/parcel-project-template/index.ee9c6825.js" nomodule defer></script> </body></html>
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script type="module" crossorigin src="/JS-games-project/assets/index-746c82ce.js"></script>
+    <link rel="stylesheet" href="/JS-games-project/assets/index-1865521c.css">
+  </head>
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <div>
+    <!-- <header class="header">
+    <ul class="header__list">
+        <li class="header__item">Інтерактив</li>
+        <li class="header__item">Наша команда</li>
+        <li class="header__item">Контакти</li>
+    </ul>
+</header> -->
+    <div class="first-page-backdrop">
+    <form class="first-page-backdrop__background-modal">
+        <button class="first-page-backdrop__close" type="button">
+            <svg class="first-page-backdrop__close-svg">
+                <use href="/JS-games-project/assets/first-page-symbol-defs-dca79e82.svg#icon-close"></use>
+            </svg>
+        </button>
+        <p class="first-page-backdrop__description">Привіт!<br>
+            Ви потрапили на сайт інтерактивних ігор та завдань<br>
+            Надіємось, що вам сподобається і ви отримаєте позитивні емоції!<br>
+            Бажаємо Вам гарно провести час!</p>
+        <p class="first-page-backdrop__write-your-name">Введіть своє ім’я:</p>
+        <input type="text" placeholder="Ваше ім’я..." class="first-page-backdrop__input">
+        <br>
+        <button type="submit" class="first-page-backdrop__save">Зберегти</button>
+        <svg class="first-page-backdrop__img first-page-backdrop__first-img">
+            <use href="/JS-games-project/assets/first-page-symbol-defs-dca79e82.svg#icon-sword"></use>
+        </svg>
+        <svg class="first-page-backdrop__img first-page-backdrop__second-img">
+            <use href="/JS-games-project/assets/first-page-symbol-defs-dca79e82.svg#icon-game-controller"></use>
+        </svg>
+        <svg class="first-page-backdrop__img first-page-backdrop__third-img">
+            <use href="/JS-games-project/assets/first-page-symbol-defs-dca79e82.svg#icon-puzzle"></use>
+        </svg>
+        <svg class="first-page-backdrop__img first-page-backdrop__forth-img">
+            <use href="/JS-games-project/assets/first-page-symbol-defs-dca79e82.svg#icon-tic-tac-toe"></use>
+        </svg>
+    </form>
+</div>
+    <header class="header">
+    <ul class="header__list">
+        <li class="header__item">Інтерактив</li>
+        <li class="header__item">Наша команда</li>
+        <li class="header__item">Контакти</li>
+    </ul>
+</header>
+    
+    <section class="guess-the-number-section">
+    <div class="container">
+        <div class="guess-the-number__line"></div>
+        <h1 class="guess-the-number__title">Вгадай число, яке загадав комп’ютер</h1>
+        <input type="text" class="guess-the-number__input" placeholder="Введіть число">
+        <button type="button" class="guess-the-number__button">
+            <svg class="guess-the-number__svg">
+                <use href="/JS-games-project/assets/guess-the-number-symbol-defs-470800e8.svg#icon-dandruff"></use>
+            </svg>
+        </button>
+        <p class="guess-the-number__text"></p>
+    </div>
+</section>
+    <section class="prs__section">
+    <div class="continer">
+        <div class="vector__prs"></div>
+            <h1 class="prs__title">Камінь - ножиці - папір</h1>
+            <div class="prs__select">
+                <ul class="prs-button__list">
+                <li class="prs-button__item">
+                    <button class="prs__button" type="button" id="rock-button">
+                        камінь
+                    </button>
+                </li>
+                <li class="prs-button__item">
+                    <button class="prs__button" type="button" id="scissors-button">
+                        ножиці
+                    </button>
+                </li>
+                <li class="prs-button__item">
+                    <button class="prs__button" type="button" id="paper-button">
+                        папір
+                    </button>
+                </li>
+                <li>
+                    <ul class="score__list">
+                        <li class="score__item" id="score">
+                            Рахунок:
+                        </li>
+                        <li class="score__item" id="computer-score">
+                            Комп'ютер - <p class="score__text" id="comp-score-text"></p>
+                        </li>
+                        <li class="score__item" id="user-score">
+                            Ви - <p class="score__text"  id="user-score-text"></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>  
+        <p class="prs__winOrLose" id="winOrLose">    </p>
+        <button type="button" class="prs-computer__button" id="computer-variant">
+            Варіант комп'ютера
+        </button>
+    </div>
+    </section>
+
+    <section class="calculator__section">
+    <div class="container">
+        <div class="vector__calculator"></div>
+    <h1 class="calculator__title">Калькулятор</h1> 
+    <div class="calculator__container" id="calculator">
+        <input class="input__calculator" type="text" id="first-input" placeholder="Введіть число">
+        <ul class="button__list">
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="plus">+</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="minus">-</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="multiply">*</button>
+            </li>
+            <li class="button__element">
+                <button class="button__calculator" type="button" id="division">/</button>
+            </li>
+        </ul>    
+        <input class="input__calculator" type="text" id="second-input" placeholder="Введіть число">
+        <button class="ebutton__calculator" type="button" id="equals">
+            =
+        </button>
+        <p class="calc__result" id="result-p"></p>
+    </div>
+    </div>
+    
+    </section>
+    <section class="time-calculator__section">
+    <div class="container">
+        <div class="time-calculator-line"></div>
+    <h1 class="time-calculator__title">Калькулятор часу</h1>
+    <div class="time-calculator__list">
+        <ul class="time-input__list">
+            <input class="input-time__calculator" type="text submit" placeholder="Введіть число" id="start-timer">
+            <button type="submit" class="time-button__calculator">  </button>
+        </ul>
+            <img class="time-calc__stroke" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAACCAYAAACuT3kTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAfSURBVHgB7cchEQAACASwHcmJjiQCiJ8btNX57Uu8MqGqGQM28L6FAAAAAElFTkSuQmCC" alt="vector">
+            <p class="time-calc__time">час</p>
+    </div>
+    </div>
+</section> 
+ 
+    <section class="dino-game">
+    <div class="container">
+        <div class="dino-line"></div>
+        <h1 class="dino-title">Google динозавр</h1>
+        <canvas id="canvass" width="720" height="297"></canvas>
+        <button id="retryButton">Retry</button>
+    </div>
+</section>
+
+
+
+    <section class="soccer">
+    <div class="container">
+        <div class="soccer-line"></div>
+        <h3 class="soccer__title">Футбол</h3>
+        <div class="border-field">
+            <div id="field">
+                <img src="data:image/png;base64,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" alt="" id="ball">
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="highest-number__section"></section>
+    <div class="container">
+        <div class="line__prs"></div>
+    <h1 class="highest-number__title">Введіть три числа</h1>
+    <ul class="input-num__list">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="one-input">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="two-input">
+        <input class="input-num__calculator" type="text" placeholder="Введіть число" id="three-input">
+    </ul>
+    <p class="highest-number__text" id="time-result">Найбільше число, яке ви ввели -</p>
+    </div>
+    </section>
+    <section class="our-team">
+    <div class="container">
+        <div class="our-team__line"></div>
+        <h3 class="our-team__title">Наша команда</h3>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="our-team__box">
+                  <img class="worker-img" src="/JS-games-project/assets/pasha-2d22d8f3.jpg" alt="">
+                  <h5 class="worker-name">Паша</h5>
+                  <p class="worker-work">ScramMaster</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="our-team__box">
+                  <img class="worker-img" src="/JS-games-project/assets/marko-e59f3c58.jpg" alt="">
+                  <h5 class="worker-name">Марко</h5>
+                  <p class="worker-work">TeamLead</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <section class="info__section">
+    <div class="info__container">
+        <h2 class="info__title">
+            Обери вченого/их
+        </h2>
+        <ul class="info__scientists"></ul>
+    </div>
+    <ul class="info__prompts"></ul>
+</section>
+
+
+    <section class="footer">
+    <div class="container">
+        <ul class="footer__box">
+            <li class="footer__box-item">
+                <svg class="footer__logo">
+                    <use href="/JS-games-project/assets/footer-symbol-defs-c8f456c6.svg#logo"></use>
+                </svg>
+            </li>
+            <li class="footer__box-item">
+                <p class="footer__contacts">Тел: +38 (123) 456 78 90<br>
+                    E-Mail: codingmagic@gmail.com<br>
+                    Facebook: CodingMagic<br>
+                    Twitter: CodingMagic<br>
+                    Instagram: CodingMagic</p>
+            </li>
+            <li class="footer__box-item">
+                <div class="footer__subscribe-box">
+                    <input type="text" placeholder="Ваша ел. адреса" class="footer__gmail-input">
+                <button class="footer__subscribe" type="button" data-open-modal>Підписатись</button>
+                </div>
+                <p class="footer__description">*Підписавшись, Ви зможете ортимувати інформаццію про новинки на сайті</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<div class="footer-backdrop footer__is-hidden" data-backdrop>
+    <form class="footer-backdrop__background-modal">
+        <button class="footer-backdrop__close" type="button" data-close-modal>
+            <svg class="footer-backdrop__close-svg">
+                <use href="/JS-games-project/assets/footer-symbol-defs-c8f456c6.svg#icon-close"></use>
+            </svg>
+        </button>
+        <div class="footer-backdrop__background">
+            <h4 class="footer-backdrop__title">Дякую за підписку!</h4>
+        </div>
+    </form>
+</div>
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </body>
+</html>
