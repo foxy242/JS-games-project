@@ -1,7 +1,41 @@
-<header id="header">
-    <ul class="header__list">
-        <li class="header__item">Інтерактив</li>
-        <li class="header__item">Наша команда</li>
-        <li class="header__item">Контакти</li>
-    </ul>
-</header>
+<section class="header">
+    <div class="container">
+        <div class="header__components">
+            <div class="header__component">
+                <svg class="header__logo">
+                    <use href="./images/header/header-symbol-defs.svg#logo"></use>
+                </svg>
+            </div>
+            <div class="header__component">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <select id="sort-select">
+                            <option value="interactive">Інтерактив</option>
+                            <option value="number">Числовий</option>
+                            <option value="games">Ігровий</option>
+                            <option value="means">Ознайомчий</option>
+                        </select>
+                    </li>
+                    <li class="header__item">
+                        <p class="header__text">Наша команда</p>
+                    </li>
+                    <li class="header__item">
+                        <p class="header__text">Контакти</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__component header__component-switch">
+                <div class="header__component-switch-item">
+                    <div class="switch-container">
+                        <div class="switch">
+                          <div class="ball"></div>
+                        </div>
+                      </div>
+                </div>
+                <div class="header__component-switch-item">
+                    <p class="header__description">Вітаємо, User!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
